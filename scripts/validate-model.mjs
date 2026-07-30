@@ -24,4 +24,3 @@ assert.equal(interfaces.public_share_links_created, 0);
 assert.equal(interfaces.identity_assignment_complete, false);
 
 console.log("Airtable coaching model and Interface contracts are valid.");
-

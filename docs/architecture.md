@@ -30,4 +30,3 @@ Each page uses `coach_user has any of Current user`.
 The Interface filters are configured, but user records and external invitations are deployment-specific. A production rollout must assign the intended Airtable users, test each identity separately and confirm the underlying base-sharing model.
 
 The current implementation is not described as Airtable Portals, guest access or record-level database security.
-

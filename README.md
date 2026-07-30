@@ -77,4 +77,3 @@ docs/         operating and access boundaries
 ```
 
 [Data and Interface architecture](docs/architecture.md)
-
