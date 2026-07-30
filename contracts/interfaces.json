@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "owner_interface": "Program Delivery Hub",
+  "role_interfaces": [
+    {
+      "name": "My Participants",
+      "source_table": "Participants",
+      "filter": {
+        "field": "coach_user",
+        "operator": "has any of",
+        "value": "Current user"
+      },
+      "editable_fields": []
+    },
+    {
+      "name": "My Coaching Plans",
+      "source_table": "Coaching Plans",
+      "filter": {
+        "field": "coach_user",
+        "operator": "has any of",
+        "value": "Current user"
+      },
+      "editable_fields": ["status", "next_milestone", "review_date"]
+    },
+    {
+      "name": "My Sessions",
+      "source_table": "Sessions",
+      "filter": {
+        "field": "coach_user",
+        "operator": "has any of",
+        "value": "Current user"
+      },
+      "editable_fields": ["outcome", "next_step", "coach_notes"]
+    }
+  ],
+  "external_invitations_created": 0,
+  "public_share_links_created": 0,
+  "identity_assignment_complete": false
+}
+

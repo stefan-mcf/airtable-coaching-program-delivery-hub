@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "tables": [
+    {
+      "name": "Coaches",
+      "count": 2,
+      "links": ["Participants", "Coaching Plans", "Sessions"]
+    },
+    {
+      "name": "Participants",
+      "count": 20,
+      "links": ["Coaches", "Coaching Plans", "Sessions"]
+    },
+    {
+      "name": "Coaching Plans",
+      "count": 20,
+      "links": ["Coaches", "Participants", "Sessions"]
+    },
+    {
+      "name": "Sessions",
+      "count": 24,
+      "links": ["Coaches", "Participants", "Coaching Plans"]
+    }
+  ],
+  "total_records": 66,
+  "verified_relationships": 108
+}
+

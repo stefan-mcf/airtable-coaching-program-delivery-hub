@@ -1,0 +1,9 @@
+{
+  "name": "airtable-coaching-program-delivery-hub",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validate-model.mjs"
+  }
+}
+
