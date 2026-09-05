@@ -4,7 +4,7 @@ An Airtable delivery workspace connecting coaches, participants, plans and sched
 
 | | |
 | --- | --- |
-| Status | Implemented in Airtable |
+| Status | Internal implementation in Airtable with controlled commissioning records |
 | Role | Relational design, record commissioning, Interface design and user-filter configuration |
 | Stack | Airtable, Airtable Interfaces |
 
