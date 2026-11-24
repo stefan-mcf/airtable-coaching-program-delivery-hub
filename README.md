@@ -6,9 +6,11 @@ An Airtable delivery workspace connecting coaches, participants, plans and sched
 
 **My contribution:** Relational design, record commissioning, Interface design and user-filter configuration.
 
-![Linked data model and filters](assets/data-model-and-filters.png)
+## What a coach can see and change
 
-*Retained project view. The [evidence index](docs/evidence.md) contains the full published sequence and its historical context.*
+The [configured interfaces](contracts/interfaces.json) apply a current-user filter across participants, coaching plans and sessions. Participant details are view-only for coaches. Selected plan and session delivery fields are editable.
+
+The [commissioning model](contracts/model.json) records 66 controlled records and 108 verified links. Multi-user access testing remains a separate deployment step. The [participant workflow capture](assets/participant-workflow.png) and [evidence index](docs/evidence.md) show the retained interface state.
 
 ## How it works
 
