@@ -60,8 +60,7 @@ No external invitation or sharing link was issued during commissioning. User ass
 
 ```text
 assets/       selected Airtable Interface screens
-contracts/    relational and Interface contracts
-examples/     commissioning totals and role-filter state
+contracts/    data model, commissioning totals and Interface filters
 scripts/      structural validator
 docs/         operating and access boundaries
 ```
